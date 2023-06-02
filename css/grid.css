@@ -58,7 +58,19 @@ html {
   margin: 0px auto;
   padding-left: 15px;
   padding-right: 15px;
+  align-items: center;
+  gap: 40px;  
   /*padding: 0px 15px 0px 15px;*/
+}
+
+.grid-con div {
+  background-color: rgba(238, 238, 238, .5);
+  border-radius: 20%;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 50px;
 }
 
 /* ---Replaced col with mob to stand for mobile since I keep getting confused --- */
@@ -170,6 +182,10 @@ html {
     margin: 0px auto;
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  h2 {
+    font-size: 100px;
   }
 
   /* ---Replaced m-col with tab-col to stand for tablet since I keep getting confused --- */
@@ -375,6 +391,10 @@ html {
     padding-right: 17px;
   }
 
+  h2 {
+    font-size: 150px;
+  }
+
   .l-col-span-1 {
     grid-column: span 1 / span 1;
   }
@@ -574,6 +594,10 @@ html {
     margin: 0px auto;
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  h2 {
+    font-size: 150px;
   }
 
   .xl-col-span-1 {

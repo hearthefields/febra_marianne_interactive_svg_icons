@@ -18,6 +18,17 @@
         fill: #37b44a;
       }
     </style>
+
+  <script>
+      const rosecider = document.querySelector("#rosecider");
+
+      function logId(){
+        console.log(this.id)
+        }
+
+        rosecider.addEventListener("click", logId)
+
+      </script>
   </defs>
   <g id="rosestem">
     <g>

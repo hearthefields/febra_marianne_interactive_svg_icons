@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="bingcherry" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 305.00119 452.38995">
+<svg id="bingcherry" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 305.00119 452.38995 ">
   <defs>
     <style>
       .cls-1 {
@@ -46,6 +46,17 @@
         fill: #37b44a;
       }
     </style>
+
+        <script>
+      const bingcherry = document.querySelector("#bingcherry");
+
+      function logId(){
+        console.log(this.id)
+        }
+
+        bingcherry.addEventListener("click", logId)
+
+      </script>
   </defs>
   <g id="cherrystem">
     <g>
