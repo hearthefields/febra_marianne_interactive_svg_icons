@@ -54,6 +54,17 @@
         fill: #37b44a;
       }
     </style>
+
+        <script>
+      const cranpomeg = document.querySelector("#cranpomeg");
+
+      function logId(){
+        console.log(this.id)
+        }
+
+        cranpomeg.addEventListener("click", logId)
+</script>
+
     <filter id="luminosity-noclip" x="-8.11278" y="48.14918" width="422.88" height="410.16" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
       <feFlood flood-color="#fff" result="bg"/>
       <feBlend in="SourceGraphic" in2="bg"/>
