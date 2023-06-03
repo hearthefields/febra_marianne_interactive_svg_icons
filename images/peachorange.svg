@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="peachorange" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 345.05513 312.90851">
+<svg id="peachorange" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 360 330">
   <defs>
     <style>
+      #peachorange {
+        transition: 0.3s;
+      }
+
+      #peachorange:hover {
+        filter: drop-shadow(5px 8px 4px rgb(0 0 0 / 0.4));
+        transform: scalex(-1);
+      }
+      /* a filter is the easiest way to apply a drop shadow to the svg */
+      /* for the drop shadow, it's 5px horizontal, 8px down, 4px blur */
+      /* rgb must be used - probably due to opacity */
+
       .cls-1 {
         fill: none;
       }

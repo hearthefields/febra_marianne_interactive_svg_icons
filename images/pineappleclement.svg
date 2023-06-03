@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="pineappleclement" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 370.20785 600.46526">
+<svg id="pineappleclement" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 390 620">
   <defs>
     <style>
+      /* the viewbox above is actually pretty useful in terms of cropping parts on the svg intentionally, or perhaps animating it */
+      /* viewbox attributes go in this order x y width height */
+
+      #pineappleclement {
+        transition: 0.3s;
+      }
+
+      #pineappleclement:hover {
+        filter: drop-shadow(5px 8px 4px rgb(0 0 0 / 0.4));
+      }
+      /* a filter is the easiest way to apply a drop shadow to the svg */
+      /* for the drop shadow, it's 5px horizontal, 8px down, 4px blur */
+      /* rgb must be used - probably due to opacity */
+
       .cls-1 {
         fill: none;
       }
