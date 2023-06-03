@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="bingcherry" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 305.00119 452.38995 ">
+<svg id="bingcherry" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 315 470">
   <defs>
     <style>
+      #bingcherry {
+        transition: 0.3s;
+      }
+
+      #bingcherry:hover {
+        filter: drop-shadow(5px 8px 4px rgb(0 0 0 / 0.4));
+      }
+      /* a filter is the easiest way to apply a drop shadow to the svg */
+      /* for the drop shadow, it's 5px horizontal, 8px down, 4px blur */
+      /* rgb must be used - probably due to opacity */
+      
       .cls-1 {
         fill: none;
       }
@@ -34,6 +45,10 @@
         fill: #bf2026;
       }
 
+      .cls-8:hover {
+        fill: #5F2030;
+      }
+
       .cls-9 {
         fill: #e44f83;
       }
@@ -44,6 +59,10 @@
 
       .cls-11 {
         fill: #37b44a;
+      }
+
+      .cls-11:hover {
+        fill: #175821;
       }
     </style>
 

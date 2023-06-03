@@ -36,7 +36,7 @@
         max-width: 100%;
     }
 
-    p, h1, h3, h4, h5 {
+    p, h1, h4, h5 {
         margin: 0px;
         padding: 0px;
     font-weight: 300;    }
@@ -81,5 +81,33 @@
         font-style: italic;
         color:antiquewhite;
      }
+
+     h3 {
+        margin: 10px;
+        padding: 0;
+        font-weight: bold;
+        color: antiquewhite;
+        font-size: 30px;
+     }
+
+     p {
+        line-height: 200%;
+        color: #eee;
+        margin: 40px;
+        font-size: 20px;
+     }
+
+     /* calming hover effect */
+
+     object:hover {
+        animation: calm 1s infinite;
+        animation-timing-function: linear;
+      }
+
+      @keyframes calm {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.1); }
+        100% { transform: scale(1); }
+      }
 
      /* ---End of ZIMA Styles --- */

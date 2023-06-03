@@ -69,8 +69,12 @@ html {
   margin: 20px;
 }
 
+.grid-con div:hover {
+  border: 5px dotted#eee;
+}
+
 h2 {
-  font-size: 50px;
+  font-size: 70px;
 }
 
 /* ---Replaced col with mob to stand for mobile since I keep getting confused --- */
